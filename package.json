@@ -1,0 +1,41 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "beautiful": "prettier --single-quote --training-comma all --tab-width 4 --write 'src/**/*.{js,json,scss}'",
+    "start": "nodemon src/index.js",
+    "watch": "sass --watch src/resources/scss:src/public/css --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levix2004/nodejs_blog.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "nodejs"
+  ],
+  "author": "vi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levix2004/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/levix2004/nodejs_blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "mongoose": "^8.8.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "sass": "^1.81.0",
+    "sass-migrator": "^2.2.1"
+  }
+}

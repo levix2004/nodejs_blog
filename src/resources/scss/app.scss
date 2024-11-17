@@ -1,0 +1,11 @@
+@import 'variables';
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: $red-color;
+    text-transform: uppercase;
+    color: rgb(145, 255, 0);
+}
