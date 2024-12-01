@@ -1,4 +1,4 @@
-@import 'variables';
+@import '_variables';
 
 h1 {
     color: red;
@@ -8,4 +8,13 @@ h2 {
     color: $red-color;
     text-transform: uppercase;
     color: rgb(145, 255, 0);
+}
+
+.btn.btn-primary.btn-sm{
+    width: 100px;
+}
+
+select.form-control.form-control-sm.checkbox-form-control {
+    width: 120px;
+    margin: 0 16px;
 }
